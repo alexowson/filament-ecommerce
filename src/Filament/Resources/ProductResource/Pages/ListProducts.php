@@ -15,11 +15,6 @@ class ListProducts extends ListRecords
     #[Reactive]
     public ?string $activeLocale = null;
 
-    public static function getTranslatableLocales(): array
-    {
-        return ['en', 'ar'];
-    }
-
     protected function getHeaderActions(): array
     {
         return [

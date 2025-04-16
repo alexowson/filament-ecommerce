@@ -13,11 +13,6 @@ class CreateProduct extends CreateRecord
     #[Reactive]
     public ?string $activeLocale = null;
 
-    public static function getTranslatableLocales(): array
-    {
-        return ['en', 'ar'];
-    }
-
     protected static string $resource = ProductResource::class;
 
     protected function getHeaderActions(): array
