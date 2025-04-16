@@ -46,7 +46,7 @@
         "tomatophp/filament-cms": "^v1.0",
         "tomatophp/filament-locations": "^v1.0",
         "tomatophp/filament-accounts": "^v2.0",
-        "tomatophp/filament-types": "^v1.0",
+        "tomatophp/filament-types": "^v2.0",
         "tomatophp/filament-settings-hub": "^v1.0"
     }
 }
