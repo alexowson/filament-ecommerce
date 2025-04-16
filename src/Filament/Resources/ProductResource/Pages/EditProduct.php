@@ -14,11 +14,6 @@ class EditProduct extends EditRecord
     #[Reactive]
     public ?string $activeLocale = null;
 
-    public static function getTranslatableLocales(): array
-    {
-        return ['en', 'ar'];
-    }
-
     protected function mutateFormDataBeforeFill(array $data): array
     {
         $data['prices'] = $this->getRecord()->meta('prices')??[];
